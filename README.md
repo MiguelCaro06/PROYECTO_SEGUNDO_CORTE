@@ -1,4 +1,7 @@
-# Proyecto de Infraestructura - Punto 1: Infraestructura Base
+# Proyecto DevOps (Resumen)
+#### Elaborado por: Miguel Caro, Diana Bernal, Samuel Parra y Laura Rodriguez 
+
+### Punto 1: Infraestructura Base
 
 ##  Arquitectura Implementada
 
@@ -65,16 +68,8 @@
 - **Contenedores:** Docker
 - **Sistemas Operativos:** Debian, Arch Linux, Rocky Linux, Garuda Linux, Fedora
 
-##  Documentación
 
-- Proceso completo documentado en el PDF.
-- Capturas de pantalla de cada paso de instalación
-- Configuraciones de red detalladas
-- Troubleshooting de problemas encontrados
-
-
-
-#### Proyecto de Infraestructura - Punto 2: Expansión de Infraestructura
+#### Punto 2: Expansión de Infraestructura
 
 ## Ampliación de Dependencias
 
@@ -158,20 +153,8 @@
 3. Integración con herramientas comerciales
 4. Documentación de compatibilidad
 
-## Estado de Implementación
 
-| Dependencia | Componente | Estado | Observaciones |
-|-------------|------------|---------|---------------|
-| RRHH | Manjaro VM | ✅ | Operativo |
-| RRHH | CentOS Container | ❌ | No implementado |
-| Tecnología | Kali Linux VM | ✅ | Operativo |
-| Tecnología | Linux Mint VM | ✅ | Operativo |
-| Financiera | Ubuntu Container | ✅ | Operativo |
-| Financiera | Alpine Container | ✅ | Operativo |
-| Comercial | Alma Linux VM | ✅ | Operativo |
-| Comercial | Debian Container | ✅ | Operativo |
-
-# Proyecto de Infraestructura - Punto 3: Análisis y Monitoreo
+# Punto 3: Análisis y Monitoreo
 
 ##  Sistema de Monitoreo Implementado
 
