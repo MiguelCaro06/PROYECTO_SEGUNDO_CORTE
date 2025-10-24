@@ -171,3 +171,132 @@
 | Comercial | Alma Linux VM | ✅ | Operativo |
 | Comercial | Debian Container | ✅ | Operativo |
 
+# Proyecto de Infraestructura - Punto 3: Análisis y Monitoreo
+
+##  Sistema de Monitoreo Implementado
+
+### **Análisis de Hardware y Dispositivos**
+
+#### Comandos de Diagnóstico de Hardware
+- `dmidecode` - Información del sistema y BIOS
+- `hwinfo` - Detalles completos de hardware
+- `lspci` - Dispositivos PCI conectados
+- `lsusb` - Dispositivos USB disponibles
+- `dmesg` - Mensajes del kernel y hardware
+
+#### Comandos de Estado del Sistema
+- `uname -a` - Información del kernel y sistema
+- `free -h` - Uso de memoria RAM
+- `df -h` - Espacio en disco
+- `lshw` - Listado detallado de hardware
+- `inxi` - Resumen completo del sistema
+
+#### Comandos de Monitoreo en Tiempo Real
+- `lsblk` - Dispositivos de bloque
+- `udevadm` - Administración de dispositivos
+- `atop` - Monitorización avanzada
+- `iotop` - Uso de I/O en disco
+- `iftop` - Tráfico de red
+
+#### Herramientas de Visualización
+- `glances` - Monitorización integral
+- `bpytop` - Monitor de recursos con UI
+- `ss -tulnp` - Conexiones de red
+- `nmcli device status` - Estado de dispositivos de red
+- `mount` - Sistemas de archivos montados
+
+### **Análisis de Servicios y Procesos**
+
+#### Monitoreo de Procesos
+- `top` - Procesos en tiempo real
+- `ps aux` - Listado completo de procesos
+- `pstree -p` - Árbol de procesos
+- `dstat` - Estadísticas del sistema
+
+#### Gestión de Servicios Systemd
+- `systemctl list-units --type=service` - Servicios activos
+- `systemd-cgtop` - Grupos de control systemd
+- `systemd-analyze blame` - Tiempos de arranque
+- `journalctl --since "1 hour ago"` - Logs recientes
+
+#### Análisis de Red y Puertos
+- `ss -ltnp` - Puertos escuchando
+- `lsof -i :80` - Procesos usando puerto 80
+- `glances --webserver` - Interface web de monitoreo
+
+### **Gestión de Archivos y Discos**
+
+#### Herramientas Implementadas
+- `ncdu` - Análisis de uso de disco
+- `baobab` - Visualizador gráfico de disco
+- `tree` - Estructura de directorios
+- `rsync` - Sincronización de archivos
+
+### **Gestión de Logs**
+
+#### Analizadores de Logs
+- `lnav` - Navegador avanzado de logs
+- `goaccess` - Analizador de logs web en tiempo real
+
+### **Análisis de Red Avanzado**
+
+#### Netdata
+- Implementación completa de Netdata
+- Visualización de métricas en tiempo real
+- Dashboards para cada dependencia
+- Alertas y monitoreo proactivo
+
+#### Wireshark
+- Captura e inspección de tráfico de red
+- Análisis de paquetes entre contenedores
+- Diagnóstico de problemas de conectividad
+
+#### Análisis de Discos
+- `smartctl -a /dev/sdX` - Salud de discos duros
+- Monitoreo de parámetros SMART
+- Detección temprana de fallos
+
+##  Desarrollo Web y Auditoría
+
+### Aplicación Streamlit
+- Página web corporativa desplegada
+- Monitoreo de consumo de recursos
+- Integración con servicios existentes
+
+### Auditoría de Seguridad
+- `lynis` - Auditoría interna del sistema
+- Análisis de vulnerabilidades
+- Recomendaciones de hardening
+
+### Escaneo de Red
+- `nmap` - Exploración de puertos
+- Análisis de servicios expuestos
+- Documentación de superficie de ataque
+
+##  Resultados Obtenidos
+
+### Métricas Capturadas
+- Uso de CPU y memoria por dependencia
+- Tráfico de red entre contenedores
+- Estado de salud de discos duros
+- Tiempos de respuesta de servicios
+
+### Hallazgos Importantes
+- Optimización de recursos identificada
+- Patrones de uso caracterizados
+- Puntos de mejora en configuración
+- Línea base de performance establecida
+
+##  Configuraciones Específicas
+
+### Para Dependencia de Recursos Humanos
+- Enfoque en monitoreo de procesos de usuario
+- Análisis de carga laboral del sistema
+- Optimización de recursos compartidos
+
+### Para Dependencia Financiera
+- Énfasis en seguridad y logs
+- Monitoreo de transacciones del sistema
+- Auditoría de accesos y permisos
+
+
