@@ -282,4 +282,19 @@
 - Monitoreo de transacciones del sistema
 - Auditoría de accesos y permisos
 
+### Conclusiones y Recomendaciones 
+
+- En primer lugar es posible concluir que, la implementación de estos sistemas permitió adquirir conocimientos prácticos sobre administración de servidores, monitoreo de recursos, configuración de servicios y gestión de entornos Linux.
+- En segundo lugar, se puede decir que Grafana, al integrarse con Ubuntu, se convierte en una herramienta poderosa para la gestión de infraestructura, ya que permite obtener una visión global del sistema en tiempo real.
+- Por último, se logró a través del proyecto integrar eficazmente diferentes plataformas, mejorar la comprensión del entorno Linux y fortalecer habilidades prácticas en configuración, mantenimiento y análisis de datos.
+- Resolver el problema de instalación de CentOS
+- Implementar las redes Docker personalizadas
+- Configurar Grafana para visualización unificada
+- Establecer comunicación inter-dependencias
+- Establecer un plan de contingencia para dependencias críticas
+- Documentar procedimientos de troubleshooting específicos
+- Crear scripts de automatización para configuraciones repetitivas
+- Implementar sistema de backup de configuraciones
+
+
 
