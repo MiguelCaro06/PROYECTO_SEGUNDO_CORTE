@@ -1,4 +1,4 @@
-# Proyecto DevOps (Resumen)
+# Proyecto DevOps
 #### Elaborado por: Miguel Caro, Diana Bernal, Samuel Parra y Laura Rodriguez 
 
 ### Punto 1: Infraestructura Base
